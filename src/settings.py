@@ -1,0 +1,3 @@
+# Vision area
+MONITOR_TOP_LEFT = (0, 0)
+MONITOR_BOTTOM_RIGHT = (1920, 1080)
