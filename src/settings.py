@@ -5,9 +5,12 @@ ENABLE_PREVIEW = True
 
 # AI settings
 ROCKMAN_SETTINGS = {
-    'running': False,
-    'screen_capture_running': False,
-    'img': None,
-    'img_templates': None,
-    'templates': None
+    "running": False,
+    "screen_capture_running": False,
+    "img": None,
+    "img_templates": None,
+    "templates": None,
 }
+
+# Object templates
+TEMPLATE_MATCHES = {}
