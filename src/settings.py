@@ -9,7 +9,6 @@ ROCKMAN_SETTINGS = {
     "screen_capture_running": False,
     "img": None,
     "img_templates": None,
-    "templates": None,
 }
 
 # Object templates

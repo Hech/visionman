@@ -1,0 +1,27 @@
+syntax = "proto2";
+
+package tutorial;
+
+message Object {
+  optional string name = 1;
+  optional int32 id = 2;
+
+  enum ObjectType {
+    UNSPECIFIED = 0;
+    STATIC = 1;
+    PLAYER = 2;
+    NPC = 3;
+  }
+
+  message NPC {
+    optional string number = 1;
+    optional ObjectTypeType type = 2 [default = UNSPECIFIED];
+    
+  }
+
+  repeated NPC npcs = 4;
+}
+
+message Stage {
+  repeated Object objects = 1;
+}
