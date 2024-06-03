@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-package tutorial;
+package screen;
 
 message Object {
   optional string name = 1;
