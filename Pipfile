@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mss = "==9.0.1"
+numpy = "==1.23.4"
+pillow = "==10.3.0"
+pyautogui = "==0.9.54"
+great-expectations = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.9"
